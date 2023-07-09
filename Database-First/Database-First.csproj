@@ -58,6 +58,9 @@
     <Compile Include="Author.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="CourceLevel.cs">
+      <DependentUpon>PlutoModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Course.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
@@ -70,6 +73,7 @@
     <Compile Include="GetCourses_Result.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Level.cs" />
     <Compile Include="PlutoModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

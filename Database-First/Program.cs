@@ -16,6 +16,11 @@ namespace Database_First
             {
                 Console.WriteLine(c.Title);
             }
+
+
+
+            var cource = new Course();
+            cource.Level = Level.Beginer;
             var x = Console.ReadLine();
         }
     }
