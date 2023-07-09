@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Database-First/.vs/Database-First/v16
+/Database-First/obj/Debug
