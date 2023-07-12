@@ -53,7 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Author.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="Course.cs" />
+    <Compile Include="Migrations\202307121742282_InitialModel.cs" />
+    <Compile Include="Migrations\202307121742282_InitialModel.Designer.cs">
+      <DependentUpon>202307121742282_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307121756040_AddCategoriesTable.cs" />
+    <Compile Include="Migrations\202307121756040_AddCategoriesTable.Designer.cs">
+      <DependentUpon>202307121756040_AddCategoriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,6 +72,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202307121742282_InitialModel.resx">
+      <DependentUpon>202307121742282_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307121756040_AddCategoriesTable.resx">
+      <DependentUpon>202307121756040_AddCategoriesTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
