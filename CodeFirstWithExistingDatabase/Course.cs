@@ -25,6 +25,8 @@ namespace CodeFirstWithExistingDatabase
 
         public int Level { get; set; }
 
+        public Category Category { get; set; }
+
         public int? Author_Id { get; set; }
 
         public virtual Author Author { get; set; }
