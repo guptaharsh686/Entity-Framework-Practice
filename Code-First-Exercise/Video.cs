@@ -12,6 +12,8 @@ namespace Code_First_Exercise
         public string Name { get; set; }
         public DateTime ReleaseDate { get; set; }
 
-        public IList<Genre> Genres { get; set; }
+        public Genre Genre { get; set; }
+
+        public Classification Classification { get; set; }
     }
 }

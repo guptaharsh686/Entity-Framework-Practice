@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classification.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Migrations\202307170757367_Initial-Migration-Add-Tables-Videos-Genres.cs" />
     <Compile Include="Migrations\202307170757367_Initial-Migration-Add-Tables-Videos-Genres.Designer.cs">
@@ -60,6 +61,14 @@
     <Compile Include="Migrations\202307170804092_PopulateGeneresDatabase.cs" />
     <Compile Include="Migrations\202307170804092_PopulateGeneresDatabase.Designer.cs">
       <DependentUpon>202307170804092_PopulateGeneresDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307170919287_ModifyVideosToHaveonlyOneGenre.cs" />
+    <Compile Include="Migrations\202307170919287_ModifyVideosToHaveonlyOneGenre.Designer.cs">
+      <DependentUpon>202307170919287_ModifyVideosToHaveonlyOneGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307170924392_AddClassificationColumnToVideosTable.cs" />
+    <Compile Include="Migrations\202307170924392_AddClassificationColumnToVideosTable.Designer.cs">
+      <DependentUpon>202307170924392_AddClassificationColumnToVideosTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -77,6 +86,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202307170804092_PopulateGeneresDatabase.resx">
       <DependentUpon>202307170804092_PopulateGeneresDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307170919287_ModifyVideosToHaveonlyOneGenre.resx">
+      <DependentUpon>202307170919287_ModifyVideosToHaveonlyOneGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307170924392_AddClassificationColumnToVideosTable.resx">
+      <DependentUpon>202307170924392_AddClassificationColumnToVideosTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
