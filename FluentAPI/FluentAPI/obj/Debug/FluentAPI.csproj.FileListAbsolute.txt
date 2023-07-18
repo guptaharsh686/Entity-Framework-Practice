@@ -1,0 +1,14 @@
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\bin\Debug\FluentAPI.exe.config
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\bin\Debug\FluentAPI.exe
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\bin\Debug\FluentAPI.pdb
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\bin\Debug\EntityFramework.dll
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\bin\Debug\EntityFramework.SqlServer.dll
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\bin\Debug\EntityFramework.xml
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\bin\Debug\EntityFramework.SqlServer.xml
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\obj\Debug\FluentAPI.csproj.AssemblyReference.cache
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\obj\Debug\FluentAPI.csproj.CoreCompileInputs.cache
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\obj\Debug\FluentAPI.csproj.CopyComplete
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\obj\Debug\FluentAPI.exe
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\obj\Debug\FluentAPI.pdb
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\obj\Debug\FluentAPI.Migrations.InitialModel.resources
+E:\GIT\Entity-Framework\FluentAPI\FluentAPI\obj\Debug\FluentAPI.csproj.GenerateResource.cache
