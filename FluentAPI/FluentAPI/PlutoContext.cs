@@ -38,7 +38,13 @@ namespace DataAnnotations
             modelBuilder.Entity<Course>()
                 .HasMany(c => c.Tags)
                 .WithMany(t => t.Courses)
-                .Map(m => m.ToTable("CourceTags"));
+                .Map(m => 
+                    {
+                        m.ToTable("CourceTags");
+                        m.MapLeftKey("CourseId");
+                        m.MapRightKey("TagId");
+                          
+                    });
 
             modelBuilder.Entity<Course>()
                 .HasRequired(c => c.Cover)
