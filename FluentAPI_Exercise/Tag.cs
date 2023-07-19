@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Code_First_Exercise
 {
-    public class Genre
+    public class Tag
     {
-        public byte Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
+        public ICollection<Video> Videos { get; private set; }
 
-        public IList<Video> Videos { get; set; }
+        public Tag()
+        {
+            Videos = new HashSet<Video>();
+        }
     }
 }

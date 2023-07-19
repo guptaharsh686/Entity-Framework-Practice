@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Code_First_Exercise
 {
-    public enum Classification
+    public enum Classification : byte
     {
         SILVER,
         GOLD,

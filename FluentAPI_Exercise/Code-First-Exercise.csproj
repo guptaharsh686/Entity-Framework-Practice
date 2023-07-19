@@ -70,9 +70,18 @@
     <Compile Include="Migrations\202307170924392_AddClassificationColumnToVideosTable.Designer.cs">
       <DependentUpon>202307170924392_AddClassificationColumnToVideosTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307191825174_AddedFewChangesasPerItterationExercise.cs" />
+    <Compile Include="Migrations\202307191825174_AddedFewChangesasPerItterationExercise.Designer.cs">
+      <DependentUpon>202307191825174_AddedFewChangesasPerItterationExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307191845181_AddedVideoTagsRelationship.cs" />
+    <Compile Include="Migrations\202307191845181_AddedVideoTagsRelationship.Designer.cs">
+      <DependentUpon>202307191845181_AddedVideoTagsRelationship.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
     <Compile Include="Video.cs" />
     <Compile Include="VidzyContext.cs" />
   </ItemGroup>
@@ -92,6 +101,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202307170924392_AddClassificationColumnToVideosTable.resx">
       <DependentUpon>202307170924392_AddClassificationColumnToVideosTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307191825174_AddedFewChangesasPerItterationExercise.resx">
+      <DependentUpon>202307191825174_AddedFewChangesasPerItterationExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307191845181_AddedVideoTagsRelationship.resx">
+      <DependentUpon>202307191845181_AddedVideoTagsRelationship.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

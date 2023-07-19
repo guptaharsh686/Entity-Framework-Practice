@@ -14,6 +14,10 @@ namespace Code_First_Exercise
 
         public Genre Genre { get; set; }
 
+        public byte GenreId { get; set; }
+
+        public ICollection<Tag> Tags { get; set; }
+
         public Classification Classification { get; set; }
     }
 }
