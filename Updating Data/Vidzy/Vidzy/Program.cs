@@ -15,20 +15,18 @@ namespace Vidzy
             using(var context = new VidzyContext())
             {
                 System.DateTime dateTime = new System.DateTime(1984, 10, 26);
-                
+
 
                 //Suitable for WPF Applications
-                //var genres = context.Genres.ToList();
-                //var genre = context.Genres.Single(a => a.Name == "Action");
+                var genres = context.Genres.ToList();
+                var genre = context.Genres.Single(a => a.Name == "Action");
 
 
 
                 var video = new Video
                 {
-                    Name = "Terminator 1 Wrong Entry",
-                    Genre = new Genre { 
-                        Name = "Action"
-                    },
+                    Name = "Terminator 2 Correct Entry",
+                    Genre = genre,
                     ReleaseDate = dateTime,
                     Classification = Classification.Silver
 
