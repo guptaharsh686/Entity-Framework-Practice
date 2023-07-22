@@ -24,8 +24,17 @@ namespace Vidzy
 
 
             //eager Loading
-            var videos2 = context.Videos.Include(c => c.Genre).ToList();
-            foreach (var vid in videos2)
+            //var videos2 = context.Videos.Include(c => c.Genre).ToList();
+            //foreach (var vid in videos2)
+            //{
+            //    System.Console.WriteLine($"Name = {vid.Name} : Genre = {vid.Genre.Name}");
+            //}
+
+
+            //Explicit Loading
+            context.Genres.Load();
+            var videos3 = context.Videos.ToList();
+            foreach (var vid in videos3)
             {
                 System.Console.WriteLine($"Name = {vid.Name} : Genre = {vid.Genre.Name}");
             }
