@@ -1,5 +1,7 @@
 ﻿
 
+using System.Linq;
+
 namespace Vidzy
 {
     class Program
@@ -8,7 +10,7 @@ namespace Vidzy
         {
             var context = new VidzyContext();
 
-            var videos = context.Videos;
+            var videos = context.Videos.ToList();
 
             foreach (var vid in videos)
             {
