@@ -18,15 +18,16 @@ namespace Vidzy
 
 
                 //Suitable for WPF Applications
-                var genres = context.Genres.ToList();
-                var genre = context.Genres.Single(a => a.Name == "Action");
+                //var genres = context.Genres.ToList();
+                //var genre = context.Genres.Single(a => a.Name == "Action");
 
-
+                // Suitable for Web applications
+                var genreId = context.Genres.Single(a => a.Name == "Action").Id;
 
                 var video = new Video
                 {
-                    Name = "Terminator 2 Correct Entry",
-                    Genre = genre,
+                    Name = "Terminator 3 Correct Entry",
+                    GenreId = genreId,
                     ReleaseDate = dateTime,
                     Classification = Classification.Silver
 
