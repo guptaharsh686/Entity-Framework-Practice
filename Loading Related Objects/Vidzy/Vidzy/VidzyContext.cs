@@ -5,6 +5,9 @@ namespace Vidzy
 {
     public class VidzyContext : DbContext
     {
+        public VidzyContext() : base(nameOrConnectionString : "VidzyContext")
+        {
+        }
         public DbSet<Video> Videos { get; set; }    
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Tag> Tags { get; set; }
