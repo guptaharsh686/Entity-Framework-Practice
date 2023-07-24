@@ -31,3 +31,6 @@
 /Repository-Pattern/MovieManagementService/.vs/MovieManagementService
 /Repository-Pattern/MovieManagementService/MovieManagement.API/obj
 /Repository-Pattern/MovieManagementService/MovieManagement.Domain/obj
+/Repository-Pattern/MovieManagementService/MovieManagement.API/bin/Debug/net7.0
+/Repository-Pattern/MovieManagementService/MovieManagement.DataAccess/bin/Debug/net7.0
+/Repository-Pattern/MovieManagementService/MovieManagement.DataAccess/obj
