@@ -21,5 +21,12 @@ namespace MovieManagement.API.Controllers
             var actorsFromRepo = _unitOfWork.Actor.GetAll();
             return Ok(actorsFromRepo);
         }
+
+        [HttpGet("movies")]   
+        public ActionResult GetActorsWithMovies() 
+        {
+            var actorsFromRepo = _unitOfWork.Actor.GetActorsWithMovies();
+            return Ok(actorsFromRepo);
+        }
     }
 }
